@@ -11,10 +11,10 @@ const Dashboard = () => {
        <Jumbotron>
         <div className="row">
             <div className="col-md-6">
-                Name:
+                Name: 
             </div>
             <div className="col-md-6">
-                First Last
+                Ahmed Atta
             </div>
         </div>
         <div className="row">
@@ -22,7 +22,7 @@ const Dashboard = () => {
                 Age:
             </div>
             <div className="col-md-6">
-                99
+                29
             </div>
         </div>
         <div className="row">
@@ -30,7 +30,7 @@ const Dashboard = () => {
                 Occupation:
             </div>
             <div className="col-md-6">
-                blah blah blah
+                DevOps Engineer
             </div>
         </div>
         </Jumbotron>
@@ -38,37 +38,31 @@ const Dashboard = () => {
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                    Project 1
+                    Azure Team who worked in this lab
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah
-                blah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah
-                blah blahblah blahblah blahblah blahblah blahblah blahblah blah</Card.Body>
+                    <Card.Body>Mohamed Hosny, Shaheer Shokry, Ahmed Atta, Amr Soliman, Peter Hanna,</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                    Project 2
+                    Oter Teams who worked on this lab
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah
-                blah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah
-                blah blahblah blahblah blahblah blahblah blahblah blahblah blah</Card.Body>
+                    <Card.Body>La walahy mafeesh 7d mohtm</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card>
                 <Card.Header>
                     <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                    Project 3
+                    Special Thanks
                     </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah blah
-                blah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah blahblah
-                blah blahblah blahblah blahblah blahblah blahblah blahblah blah</Card.Body>
+                    <Card.Body>Special Thanks to Hosny</Card.Body>
                 </Accordion.Collapse>
             </Card>
         </Accordion>
